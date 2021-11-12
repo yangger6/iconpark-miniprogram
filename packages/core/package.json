@@ -1,0 +1,42 @@
+{
+  "name": "@iconpark-miniprogram/core",
+  "version": "0.0.1",
+  "description": "code gen icon-park",
+  "author": "yangger<i@yangger.cn>",
+  "homepage": "https://github.com/yangger6/iconpark-miniprogram#readme",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangger6/iconpark-miniprogram.git"
+  },
+  "scripts": {
+    "build": "yarn run clean && yarn run compile",
+    "clean": "rimraf -rf ./lib",
+    "compile": "tsc -p ./tsconfig.icon.json",
+    "prepublishOnly": "yarn run build",
+    "gen": "rm -rf ./dist && mkdir dist && ts-node ./src/index.ts --project ./tsconfig.build.json"
+  },
+  "bugs": {
+    "url": "https://github.com/yangger6/iconpark-miniprogram/issues"
+  },
+  "devDependencies": {
+    "@icon-park/svg": "^1.3.5",
+    "@types/ejs": "^3.1.0",
+    "@types/node": "^16.11.7",
+    "ejs": "^3.1.6",
+    "svg64": "^1.1.0",
+    "ts-lib": "^0.0.5",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}

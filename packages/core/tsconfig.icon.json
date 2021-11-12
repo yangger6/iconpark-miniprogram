@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "sourceMap": false,
+    "declaration": true,
+    "declarationMap": false,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "noEmit": false,
+    "moduleResolution": "node",
+    "outDir": "./lib"
+  },
+  "include": ["dist/**/*"],
+  "exclude": ["src"]
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": false,
+    "declaration": true,
+    "declarationMap": false,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "types": ["node"],
+    "jsx": "react",
+    "noEmit": false,
+    "moduleResolution": "node",
+    "outDir": "./lib"
+  },
+  "include": ["dist/**/*"],
+  "exclude": ["src"]
+}
