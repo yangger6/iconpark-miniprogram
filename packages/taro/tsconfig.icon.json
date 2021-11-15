@@ -11,8 +11,7 @@
     "jsx": "react",
     "noEmit": false,
     "moduleResolution": "node",
-    "outDir": "./lib"
+    "outDir": "./dist"
   },
-  "include": ["dist/**/*"],
-  "exclude": ["src"]
+  "include": ["../core/lib/taro/**/*"],
 }

@@ -20,11 +20,10 @@
     "url": "git+https://github.com/yangger6/iconpark-miniprogram.git"
   },
   "scripts": {
-    "build": "yarn run clean && yarn run compile",
-    "clean": "rimraf -rf ./lib",
-    "compile": "tsc -p ./tsconfig.icon.json",
+    "clean": "rimraf -rf ./lib && mkdir lib",
+    "compile": "ts-node ./src/index.ts --project ./tsconfig.json",
     "prepublishOnly": "yarn run build",
-    "gen": "rm -rf ./dist && mkdir dist && ts-node ./src/index.ts --project ./tsconfig.build.json"
+    "build": "yarn clean && yarn compile"
   },
   "bugs": {
     "url": "https://github.com/yangger6/iconpark-miniprogram/issues"

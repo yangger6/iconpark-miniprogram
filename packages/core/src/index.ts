@@ -1,5 +1,5 @@
 import * as iconParkIcons from '@icon-park/svg'
-import {renderFile} from 'ejs'
+import {renderFile, render} from 'ejs'
 import {join} from 'path'
 import {existsSync, mkdirSync, writeFileSync} from 'fs'
 
@@ -7,7 +7,7 @@ const iconGen = async () => {
     const filterNames = ['setConfig', 'DEFAULT_ICON_CONFIGS']
     const iconNames = Object.keys(iconParkIcons).filter(name => !filterNames.includes(name))
     console.log(`开始编译, 共${iconNames.length}个文件`)
-    const baseUrl = join(__dirname, `../dist/taro`)
+    const baseUrl = join(__dirname, `../lib/taro`)
     const iconsUrl = join(baseUrl, './icons')
     // 新建文件夹
     if (!existsSync(baseUrl)) {
@@ -27,10 +27,15 @@ const iconGen = async () => {
             encoding: 'utf-8'
         })
     }
-    const mapCode = await renderFile(join(__dirname, `./ejs/map.taro.ejs`), {
+    const mapCode = render(`<% iconNames.forEach(function(iconName){ -%>
+export { default as <%= iconName %> } from './icons/<%= iconName %>'
+<% }); -%>`, {
         iconNames
     })
     writeFileSync(join(baseUrl, `map.ts`), mapCode, {
+        encoding: 'utf-8'
+    })
+    writeFileSync(join(baseUrl, `index.ts`), `export * from './map'`, {
         encoding: 'utf-8'
     })
 }

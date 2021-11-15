@@ -12,8 +12,6 @@
     "jsx": "react",
     "noEmit": false,
     "moduleResolution": "node",
-    "outDir": "./lib"
   },
-  "include": ["dist/**/*"],
-  "exclude": ["src"]
+  "include": ["src"],
 }
