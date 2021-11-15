@@ -1,6 +1,6 @@
 {
   "name": "@iconpark-miniprogram/taro",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "main": "dist/index",
   "module": "dist/index.js",
   "types": "dist/index",
