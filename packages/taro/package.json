@@ -2,6 +2,7 @@
   "name": "@iconpark-miniprogram/taro",
   "version": "0.0.13",
   "main": "dist/index",
+  "module": "dist/index.js",
   "types": "dist/index",
   "files": [
     "dist"
@@ -16,14 +17,25 @@
     "compile": "tsc -p ./tsconfig.json",
     "prepublishOnly": "yarn run build"
   },
-  "keywords": [],
-  "author": "",
+  "homepage": "http://iconpark.bytedance.com/",
+  "bugs": {
+    "url": "https://github.com/yangger6/iconpark-miniprogram/issues"
+  },
+  "keywords": [
+    "icon",
+    "icon pack",
+    "IconPark",
+    "svg",
+    "mini program"
+  ],
+  "author": "yangger<i@yangger.cn>",
   "license": "Apache-2.0",
   "description": "",
   "dependencies": {
     "@icon-park/svg": "^1.3.5",
     "svg64": "^1.1.0"
   },
+  "sideEffects": false,
   "devDependencies": {
     "@types/react": "^17.0.34",
     "react": "~17.0.0",
