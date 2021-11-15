@@ -1,6 +1,6 @@
 {
   "name": "@iconpark-miniprogram/taro",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "main": "dist/index",
   "types": "dist/index",
   "files": [
