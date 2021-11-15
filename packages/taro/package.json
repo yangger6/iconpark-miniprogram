@@ -4,6 +4,7 @@
   "main": "dist/index",
   "module": "dist/index.js",
   "types": "dist/index",
+  "description": "icon-park with taro",
   "files": [
     "dist"
   ],
@@ -30,7 +31,6 @@
   ],
   "author": "yangger<i@yangger.cn>",
   "license": "Apache-2.0",
-  "description": "",
   "dependencies": {
     "@icon-park/svg": "^1.3.5",
     "svg64": "^1.1.0"
