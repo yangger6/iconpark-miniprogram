@@ -4,7 +4,7 @@
   "description": "code gen icon-park",
   "author": "yangger<i@yangger.cn>",
   "homepage": "https://github.com/yangger6/iconpark-miniprogram#readme",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "main": "lib/core.js",
   "directories": {
     "lib": "lib"
