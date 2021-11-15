@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "target": "esnext",
+    "module": "esnext",
     "strict": true,
     "sourceMap": false,
     "declaration": true,
@@ -10,10 +10,11 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "jsx": "react",
+    "moduleResolution": "node",
     "noEmit": false,
     "outDir": "./dist",
     "typeRoots": ["../../types", "./node_modules/@types"],
-    "baseUrl": "./",
+    "baseUrl": "./"
   },
   "include": ["../core/lib/taro/**/*"]
 }
