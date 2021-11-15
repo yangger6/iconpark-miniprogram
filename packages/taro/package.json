@@ -6,6 +6,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "yarn run clean && yarn run compile",
     "clean": "rimraf -rf ./dist",
@@ -26,5 +29,5 @@
     "react-dom": "~17.0.0",
     "typescript": "^4.4.4"
   },
-  "gitHead": "8c93bfc6b9c2ee51dca6d74a5e0fa839dbf810b3"
+  "gitHead": "0827c58cd3d8a12f0bec2342658c92375f322dc8"
 }
