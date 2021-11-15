@@ -7,6 +7,7 @@
     "dist"
   ],
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
@@ -29,5 +30,5 @@
     "react-dom": "~17.0.0",
     "typescript": "^4.4.4"
   },
-  "gitHead": "0827c58cd3d8a12f0bec2342658c92375f322dc8"
+  "gitHead": "a0202d0fd49cdab72549b0a2a5b7f124a23a90be"
 }
