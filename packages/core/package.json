@@ -34,10 +34,11 @@
     "@types/ejs": "^3.1.0",
     "@types/node": "^16.11.7",
     "ejs": "^3.1.6",
+    "fs-extra": "^10.0.0",
     "svg64": "^1.1.0",
     "ts-lib": "^0.0.5",
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4"
   },
-  "gitHead": "a0202d0fd49cdab72549b0a2a5b7f124a23a90be"
+  "gitHead": "717e46c1605d38421059c4f4f80bde2a30cd42c6"
 }

@@ -12,6 +12,7 @@
     "jsx": "react",
     "noEmit": false,
     "moduleResolution": "node",
+    "typeRoots": ["../../types", "./node_modules/@types"]
   },
   "include": ["src"],
 }

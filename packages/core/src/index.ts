@@ -2,6 +2,7 @@ import * as iconParkIcons from '@icon-park/svg'
 import {renderFile, render} from 'ejs'
 import {join} from 'path'
 import {existsSync, mkdirSync, writeFileSync} from 'fs'
+import {copySync} from 'fs-extra'
 
 const iconGen = async () => {
     const filterNames = ['setConfig', 'DEFAULT_ICON_CONFIGS']
@@ -38,6 +39,7 @@ export { default as <%= iconName %> } from './icons/<%= iconName %>'
     writeFileSync(join(baseUrl, `index.ts`), `export * from './map'`, {
         encoding: 'utf-8'
     })
+    copySync(join(baseUrl, '../../../../types'), join(baseUrl, './types'))
 }
 
 iconGen()
