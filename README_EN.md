@@ -17,7 +17,7 @@
 ## App Env Support
 
 - [x] [support Taro](https://github.com/yangger6/iconpark-miniprogram/tree/master/packages/taro)
-- []  support Wechat Mini Program
-- []  support Alipay Mini Program
+- [ ]  support Wechat Mini Program
+- [ ]  support Alipay Mini Program
 
 

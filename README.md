@@ -16,5 +16,5 @@
 ## 运行平台支持
 
 - [x] [支持Taro](https://github.com/yangger6/iconpark-miniprogram/tree/master/packages/taro)
-- []  支持微信小程序
-- []  支持支付宝平台
+- [ ]  支持微信小程序
+- [ ]  支持支付宝平台
