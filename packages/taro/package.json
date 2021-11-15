@@ -1,6 +1,6 @@
 {
   "name": "@iconpark-miniprogram/taro",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "dist/index",
   "types": "dist/index",
   "files": [
@@ -21,7 +21,7 @@
   "description": "",
   "dependencies": {
     "@icon-park/svg": "^1.3.5",
-    "@iconpark-miniprogram/core": "^0.0.7",
+    "@iconpark-miniprogram/core": "^0.0.8",
     "svg64": "^1.1.0"
   },
   "devDependencies": {
