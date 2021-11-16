@@ -20,4 +20,14 @@
 - [ ]  support Wechat Mini Program
 - [ ]  support Alipay Mini Program
 
+## Packages
 
+### App Runtime Package
+
+Find packages in packages folder.You can use it in your Taro, WeChat/Alipay applet and other different types of projects
+
+| Name | Github Link | NPM Link |
+| ------- | --- | --- |
+| Taro | [IconPark Mini Program Taro](./packages/taro/README.md)  | [@iconpark-miniprogram/taro](https://www.npmjs.com/package/@iconpark-miniprogram/taro) |
+| Wechat Mini Program | Developing | Developing |
+| Alipay Mini Program | Developing | Developing |

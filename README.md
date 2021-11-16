@@ -18,3 +18,15 @@
 - [x] [支持Taro](https://github.com/yangger6/iconpark-miniprogram/tree/master/packages/taro)
 - [ ]  支持微信小程序
 - [ ]  支持支付宝平台
+
+## 代码库
+
+### 平台包
+
+可以在`packages`文件夹下面找到，你可以应用在你的Taro、微信/支付宝小程序等不同类型项目中使用
+
+| 名称 | Github查看 | NPM包地址 |
+| ------- | --- | --- |
+| Taro | [IconPark Mini Program Taro](./packages/taro/README.md)  | [@iconpark-miniprogram/taro](https://www.npmjs.com/package/@iconpark-miniprogram/taro) |
+| 微信小程序 | 开发中 | 开发中 |
+| 支付宝小程序 | 开发中 | 开发中 |
