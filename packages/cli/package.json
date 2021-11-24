@@ -1,7 +1,7 @@
 {
   "name": "@iconpark-miniprogram/cli",
   "description": "icon-park miniProgram code generator",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "author": "yangger6<i@yangger.cn>",
   "bin": {
     "@iconpark-miniprogram/cli": "./bin/run"
@@ -14,7 +14,7 @@
     "tslib": "^1"
   },
   "devDependencies": {
-    "@iconpark-miniprogram/core": "^0.0.14",
+    "@iconpark-miniprogram/core": "^0.0.15",
     "@oclif/dev-cli": "^1",
     "@oclif/test": "^1",
     "@types/chai": "^4",
