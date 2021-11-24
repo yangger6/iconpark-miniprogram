@@ -56,5 +56,5 @@
     "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\""
   },
   "types": "lib/index.d.ts",
-  "gitHead": "37747c035690398fd284e213b4e4217bcd322ce8"
+  "gitHead": "6705d15e2e0511ef95808dd9ea46ddee2bfbaa0b"
 }
