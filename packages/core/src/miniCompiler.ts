@@ -148,10 +148,10 @@ const fetchRemoteLinkIcons = (remoteSvgLink: string) => {
                         const matchResult = symbolText.match(/id="(?<iconId>[a-zA-z\d\-]+).*viewBox="(?<iconViewBox>[0-9|\s]+)/)
                         const {iconId, iconViewBox} = matchResult?.groups || {}
                         const content = svgWrapper(iconViewBox, symbolToG(symbolText))
-                        console.log(`========================`)
-                        console.log(`name -> ${iconId}`)
-                        console.log(content)
-                        console.log(`========================`)
+                        // console.log(`========================`)
+                        // console.log(`name -> ${iconId}`)
+                        // console.log(content)
+                        // console.log(`========================`)
                         if (iconId && iconViewBox) {
                             return {
                                 name: iconId,
