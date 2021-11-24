@@ -1,24 +1,17 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "esnext",
+    "module": "commonjs",
+    "strict": true,
     "sourceMap": false,
     "declaration": true,
     "declarationMap": false,
     "noEmitOnError": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "jsx": "react",
-    "noEmit": false,
-    "outDir": "./lib",
     "moduleResolution": "node",
-    "typeRoots": ["../../types"],
-    "lib": [
-      "dom",
-      "es5",
-      "es2015.promise"
-    ],
+    "noEmit": false,
+    "typeRoots": ["../../types", "./node_modules/@types"],
     "baseUrl": "./"
-  },
-  "include": ["dist/**/*"]
+  }
 }

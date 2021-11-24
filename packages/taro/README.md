@@ -2,6 +2,10 @@
 
 ---
 
+[![Version](https://img.shields.io/npm/v/@iconpark-miniprogram/taro.svg)](https://npmjs.org/package/@iconpark-miniprogram/taro)
+[![Downloads/week](https://img.shields.io/npm/dw/@iconpark-miniprogram/taro.svg)](https://npmjs.org/package/@iconpark-miniprogram/taro)
+[![License](https://img.shields.io/npm/l/@iconpark-miniprogram/taro.svg)](https://github.com/yangger6/iconpark-miniprogram/blob/master/packages/taro/package.json)
+
 > use in taro 3.x
 
 ## Installing

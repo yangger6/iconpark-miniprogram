@@ -3,7 +3,6 @@
   "version": "0.0.14",
   "main": "dist/index",
   "module": "dist/index.js",
-  "types": "dist/index",
   "description": "icon-park with taro",
   "files": [
     "dist"
@@ -13,10 +12,11 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "build": "yarn run clean && yarn run compile",
-    "clean": "rimraf -rf ./dist",
-    "compile": "tsc -p ./tsconfig.json",
-    "prepublishOnly": "yarn run build"
+    "compile:icon": "rimraf -rf ./dist && ts-node --project ./tsconfig.build.json ./src/index.ts",
+    "clean": "rimraf -rf ./lib",
+    "compile": "yarn clean && tsc --project ./tsconfig.json",
+    "build": "yarn compile:icon && yarn compile",
+    "prepublishOnly": "yarn run compile"
   },
   "homepage": "http://iconpark.bytedance.com/",
   "bugs": {
@@ -37,6 +37,8 @@
   },
   "sideEffects": false,
   "devDependencies": {
+    "@iconpark-miniprogram/core": "^0.0.14",
+    "ts-node": "^10.4.0",
     "@types/react": "^17.0.34",
     "react": "~17.0.0",
     "react-dom": "~17.0.0",

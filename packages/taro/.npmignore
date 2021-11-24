@@ -1,1 +1,4 @@
 tsconfig.json
+tsconfig.build.json
+dist
+src

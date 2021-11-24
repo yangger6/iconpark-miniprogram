@@ -1,0 +1,45 @@
+import {IconDefaultProps} from '../iconPark'
+const svg64 = require('../svg64')
+
+Component({
+    properties: {
+        fill: { // 填充色
+            type: String,
+            optionalTypes: [Array],
+            value: '#333'
+        },
+        size: { // 图标尺寸大小，默认1em
+            type: String,
+            optionalTypes: [Number]
+        },
+        strokeWidth: { // 描边宽度
+            type: Number
+        },
+        strokeLinecap: { // 描边端点类型
+            type: String
+        },
+        strokeLinejoin: { // 描边连接线类型
+            type: String
+        },
+        theme: { // 默认主题
+            type: String
+        },
+    },
+    data: {
+        base64Data: ''
+    },
+    methods: {
+        getSvgContent () {
+            const props = IconDefaultProps(this.properties)
+            return <%- icon.svgContent %>
+        },
+        initIcon () {
+            this.setData({base64Data: svg64(this.getSvgContent())})
+        }
+    },
+    observers: {
+        'fill,size,strokeWidth,strokeLinecap,strokeLinejoin,theme': function () {
+            this.initIcon()
+        }
+    }
+})
