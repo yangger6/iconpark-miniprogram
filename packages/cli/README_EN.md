@@ -17,12 +17,12 @@ icon-park miniProgram code generator
 ## Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @iconpark-miniprogram/cli
-$ @iconpark-miniprogram/cli COMMAND
+$ npm install -g iconpark-miniprogram
+$ iconpark-miniprogram COMMAND
 running command...
-$ @iconpark-miniprogram/cli --help [COMMAND]
+$ iconpark-miniprogram --help [COMMAND]
 USAGE
-  $ @iconpark-miniprogram/cli COMMAND
+  $ iconpark-miniprogram COMMAND
 ...
 ```
 
@@ -30,7 +30,7 @@ USAGE
 
 ### 1. Create `iconpark-miniprogram.json` in the project root directory.
 
-```json
+```
   {
     "link": "https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/svg_4748_4.6e9e78e1ff1d1089dd55d318b7c8e76f.js", // iconpark svg symbol link
     "total": 4, // total icons
@@ -44,13 +44,13 @@ USAGE
 generate component with `iconpark-miniprogram.json`
 
 ```shell
-$ @iconpark-miniprogram/cli // Automatic `iconpark-miniprogram.json` parsing 
+$ iconpark-miniprogram // Automatic `iconpark-miniprogram.json` parsing 
 // or
-$ @iconpark-miniprogram/cli -c ./iconpark-miniprogram.example.json
+$ iconpark-miniprogram -c ./iconpark-miniprogram.example.json
 ```
 
 ### 3. Or using command
 
 ```shell
-$ @iconpark-miniprogram/cli --link https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/svg_2112_11.caca56a254d4132af95083235d0735e1.js --total 11 --path ./components/iconParks --runtime weapp
+$ iconpark-miniprogram --link https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/svg_2112_11.caca56a254d4132af95083235d0735e1.js --total 11 --path ./components/iconParks --runtime weapp
 ```

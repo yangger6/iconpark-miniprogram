@@ -4,7 +4,7 @@
   "version": "0.0.19",
   "author": "yangger6<i@yangger.cn>",
   "bin": {
-    "@iconpark-miniprogram/cli": "./bin/run"
+    "iconpark-miniprogram": "./bin/run"
   },
   "bugs": "https://github.com/yangger6/iconpark-miniprogram/issues",
   "dependencies": {
