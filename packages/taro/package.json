@@ -1,11 +1,11 @@
 {
   "name": "@iconpark-miniprogram/taro",
   "version": "0.0.23",
-  "main": "dist/index",
-  "module": "dist/index.js",
+  "main": "lib/index",
+  "module": "lib/index.js",
   "description": "icon-park with taro",
   "files": [
-    "dist"
+    "lib"
   ],
   "publishConfig": {
     "access": "public",
