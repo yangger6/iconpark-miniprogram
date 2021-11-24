@@ -1,6 +1,6 @@
 {
   "name": "@iconpark-miniprogram/taro",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "main": "dist/index",
   "module": "dist/index.js",
   "description": "icon-park with taro",
@@ -37,7 +37,7 @@
   },
   "sideEffects": false,
   "devDependencies": {
-    "@iconpark-miniprogram/core": "^0.0.15",
+    "@iconpark-miniprogram/core": "^0.0.16",
     "@types/react": "^17.0.34",
     "react": "~17.0.0",
     "react-dom": "~17.0.0",
