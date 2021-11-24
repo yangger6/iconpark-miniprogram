@@ -8,13 +8,13 @@
   },
   "bugs": "https://github.com/yangger6/iconpark-miniprogram/issues",
   "dependencies": {
+    "@iconpark-miniprogram/core": "^0.0.21",
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
     "tslib": "^1"
   },
   "devDependencies": {
-    "@iconpark-miniprogram/core": "^0.0.21",
     "@oclif/dev-cli": "^1",
     "@oclif/test": "^1",
     "@types/chai": "^4",
