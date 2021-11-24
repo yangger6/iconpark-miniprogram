@@ -20,8 +20,6 @@ icon-park miniProgram code generator
 $ npm install -g @iconpark-miniprogram/cli
 $ @iconpark-miniprogram/cli COMMAND
 running command...
-$ @iconpark-miniprogram/cli (-v|--version|version)
-@iconpark-miniprogram/cli/0.0.14 darwin-x64 node-v14.16.0
 $ @iconpark-miniprogram/cli --help [COMMAND]
 USAGE
   $ @iconpark-miniprogram/cli COMMAND

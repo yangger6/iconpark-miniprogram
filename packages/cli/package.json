@@ -45,12 +45,16 @@
   "oclif": {
     "bin": "@iconpark-miniprogram/cli"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": "yangger6/iconpark-miniprogram",
   "scripts": {
     "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepublishOnly": "rm -rf lib && tsc -b",
-    "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
-    "version": "oclif-dev readme && git add README.md"
+    "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\""
   },
-  "types": "lib/index.d.ts"
+  "types": "lib/index.d.ts",
+  "gitHead": "7f704d7ed726bf5816d0ed533ac4d38fd7aa021d"
 }
