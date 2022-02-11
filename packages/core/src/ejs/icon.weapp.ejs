@@ -26,11 +26,17 @@ Component({
         },
     },
     data: {
-        base64Data: ''
+        base64Data: '',
+        width: 16,
+        height: 16
     },
     methods: {
         getSvgContent () {
             const props = IconDefaultProps(this.properties)
+            this.setData({
+                width: props.size || 16,
+                height: props.size || 16
+            })
             return <%- icon.svgContent %>
         },
         initIcon () {

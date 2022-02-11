@@ -237,7 +237,7 @@ const miniCompiler = async (remoteSvgLink: string, savePath: string, total: numb
         })
         writeFileSync(join(currentIconFolderPath, fileName + '.js'), renderCode, {encoding: 'utf8'})
         writeFileSync(join(currentIconFolderPath, fileName + '.json'), JSON.stringify({component: true}), {encoding: 'utf8'})
-        writeFileSync(join(currentIconFolderPath, fileName + (runtime === 'weapp' ? '.wxml': '.axml')), '<image style="width: 1em;height: 1em" src="{{base64Data}}" />', {encoding: 'utf8'})
+        writeFileSync(join(currentIconFolderPath, fileName + (runtime === 'weapp' ? '.wxml': '.axml')), '<image style="width: {{width}}px;height: {{height}}px" src="{{base64Data}}" />', {encoding: 'utf8'})
     }))
     console.log('组件编译完成，删除临时文件')
     await rmdirSync(tempSavePath, {recursive: true})
