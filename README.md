@@ -28,5 +28,5 @@
 | 名称 | Github查看 | NPM包地址 | Demo |
 | ------- | --- | --- | --- |
 | Taro | [IconPark Mini Program Taro](./packages/taro/README.md)  | [@iconpark-miniprogram/taro](https://www.npmjs.com/package/@iconpark-miniprogram/taro) | 开发中  |
-| 微信小程序 | [IconPark Mini Program Cli](./packages/cli/README.md) | [@iconpark-miniprogram/cli](https://www.npmjs.com/package/@iconpark-miniprogram/cli) | [在微信开发者工具查看](https://developers.weixin.qq.com/s/kMwL2ZmX77wj) |
+| 微信小程序 | [IconPark Mini Program Cli](./packages/cli/README.md) | [@iconpark-miniprogram/cli](https://www.npmjs.com/package/@iconpark-miniprogram/cli) | [在微信开发者工具查看](https://developers.weixin.qq.com/s/t2xzAZmA7twL) |
 | 支付宝小程序 | [IconPark Mini Program Cli](./packages/cli/README.md) | [@iconpark-miniprogram/cli](https://www.npmjs.com/package/@iconpark-miniprogram/cli) | [支付宝小程序Demo](./example/iconpark-miniprogram-cli-alipay-demo/README.md) |
