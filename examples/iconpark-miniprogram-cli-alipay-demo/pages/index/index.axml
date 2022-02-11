@@ -1,0 +1,6 @@
+<view class="intro">
+<aiming size="{{s1}}" fill="{{c1}}"></aiming>
+<airplay size="{{s2}}" fill="{{c2}}"></airplay>
+<alarm size="{{s3}}" fill="{{c3}}"></alarm>
+<broadcast size="{{s4}}" fill="{{c4}}"></broadcast>
+</view>

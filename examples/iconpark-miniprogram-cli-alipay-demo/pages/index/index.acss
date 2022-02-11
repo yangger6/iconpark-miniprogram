@@ -1,0 +1,10 @@
+.intro {
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  background-color: #f7f7f7;
+}
+.intro image {
+  margin: 20px
+}

@@ -17,8 +17,8 @@
 ## App Env Support
 
 - [x] [support Taro](https://github.com/yangger6/iconpark-miniprogram/tree/master/packages/taro)
-- [ ]  support Wechat Mini Program
-- [ ]  support Alipay Mini Program
+- [x] [support Wechat Mini Program](https://github.com/yangger6/iconpark-miniprogram/tree/master/packages/cli)
+- [x] [support Alipay Mini Program](https://github.com/yangger6/iconpark-miniprogram/tree/master/packages/cli)
 
 ## Packages
 
@@ -26,8 +26,8 @@
 
 Find packages in packages folder.You can use it in your Taro, WeChat/Alipay applet and other different types of projects
 
-| Name | Github Link | NPM Link |
-| ------- | --- | --- |
-| Taro | [IconPark Mini Program Taro](./packages/taro/README.md)  | [@iconpark-miniprogram/taro](https://www.npmjs.com/package/@iconpark-miniprogram/taro) |
-| Wechat Mini Program | Developing | Developing |
-| Alipay Mini Program | Developing | Developing |
+| Name | Github Link | NPM Link | Demo |
+| ------- | --- | --- | --- |
+| Taro | [IconPark Mini Program Taro](./packages/taro/README.md)  | [@iconpark-miniprogram/taro](https://www.npmjs.com/package/@iconpark-miniprogram/taro) | Developing |
+| Wechat Mini Program | [IconPark Mini Program Cli](./packages/cli/README.md) | [@iconpark-miniprogram/cli](https://www.npmjs.com/package/@iconpark-miniprogram/cli) | [Preview with Developer Tool](https://developers.weixin.qq.com/s/kMwL2ZmX77wj) |
+| Alipay Mini Program | [IconPark Mini Program Cli](./packages/cli/README.md) | [@iconpark-miniprogram/cli](https://www.npmjs.com/package/@iconpark-miniprogram/cli) | [Alipay Mini Program Demo](./example/iconpark-miniprogram-cli-alipay-demo/README.md) |

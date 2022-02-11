@@ -1,0 +1,6 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+}

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "aiming": "/components/iconParks/aiming/aiming",
+    "airplay": "/components/iconParks/airplay/airplay",
+    "alarm": "/components/iconParks/alarm/alarm",
+    "broadcast": "/components/iconParks/broadcast/broadcast"
+  }
+}
