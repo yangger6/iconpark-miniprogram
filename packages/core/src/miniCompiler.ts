@@ -127,12 +127,16 @@ const fetchRemoteLinkIcons = (remoteSvgLink: string) => {
         const req = https.request(remoteSvgLink, function (res) {
             // console.log('STATUS: ' + res.statusCode)
             // console.log('HEADERS: ' + JSON.stringify(res.headers))
+            let body = ''
             res.setEncoding('utf8')
             res.on('data', function (chunk) {
+                body = body + chunk.toString();
+            })
+            res.on('end', () => {
                 try {
-                    const allSymbols: string[] = chunk.match(/<symbol.*?<\/symbol>/g)
+                    const allSymbols: string[] = body.match(/<symbol.*?<\/symbol>/g)
                     if (!allSymbols) {
-                        console.error('request error content: \t', chunk)
+                        console.error('request error content: \t', body)
                         resolve([])
                         return
                     }
