@@ -1,14 +1,14 @@
 {
-  "name": "@iconpark-miniprogram/cli",
+  "name": "@iconpark-miniprogram-sht/cli",
   "description": "icon-park miniProgram code generator",
-  "version": "0.0.26",
+  "version": "0.0.4",
   "author": "yangger6<i@yangger.cn>",
   "bin": {
-    "iconpark-miniprogram": "./bin/run"
+    "iconpark-miniprogram-sht": "./bin/run"
   },
   "bugs": "https://github.com/yangger6/iconpark-miniprogram/issues",
   "dependencies": {
-    "@iconpark-miniprogram/core": "^0.0.26",
+    "@iconpark-miniprogram-sht/core": "^0.0.4",
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
@@ -43,7 +43,7 @@
   "license": "Apache-2.0",
   "main": "lib/index.js",
   "oclif": {
-    "bin": "@iconpark-miniprogram/cli"
+    "bin": "@iconpark-miniprogram-sht/cli"
   },
   "publishConfig": {
     "access": "public",
@@ -56,5 +56,5 @@
     "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\""
   },
   "types": "lib/index.d.ts",
-  "gitHead": "7c88151b2487e7cfef12b9fa0ea47813bc7ca144"
+  "gitHead": "19d36a25d996b7832467d79fc1faf9ac621a6c8f"
 }

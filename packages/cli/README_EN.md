@@ -5,9 +5,12 @@
 icon-park miniProgram code generator
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/@iconpark-miniprogram/cli.svg)](https://npmjs.org/package/@iconpark-miniprogram/cli)
-[![Downloads/week](https://img.shields.io/npm/dw/@iconpark-miniprogram/cli.svg)](https://npmjs.org/package/@iconpark-miniprogram/cli)
+[![Version](https://img.shields.io/npm/v/@iconpark-miniprogram-sht/cli.svg)](https://npmjs.org/package/@iconpark-miniprogram-sht/cli)
+[![Downloads/week](https://img.shields.io/npm/dw/@iconpark-miniprogram-sht/cli.svg)](https://npmjs.org/package/@iconpark-miniprogram-sht/cli)
 [![License](https://img.shields.io/npm/l/@iconpark-miniprogram/cli.svg)](https://github.com/yangger6/iconpark-miniprogram/blob/master/packages/cli/package.json)
+
+## Statement
+### Here, we just modified the bug to support more icons
 
 ## Feature
 
@@ -17,12 +20,12 @@ icon-park miniProgram code generator
 ## Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g iconpark-miniprogram
-$ iconpark-miniprogram COMMAND
+$ npm install -g iconpark-miniprogram-sht
+$ iconpark-miniprogram-sht COMMAND
 running command...
-$ iconpark-miniprogram --help [COMMAND]
+$ iconpark-miniprogram-sht --help [COMMAND]
 USAGE
-  $ iconpark-miniprogram COMMAND
+  $ iconpark-miniprogram-sht COMMAND
 ...
 ```
 
@@ -44,13 +47,13 @@ USAGE
 generate component with `iconpark-miniprogram.json`
 
 ```shell
-$ iconpark-miniprogram // Automatic `iconpark-miniprogram.json` parsing 
+$ iconpark-miniprogram-sht // Automatic `iconpark-miniprogram.json` parsing 
 // or
-$ iconpark-miniprogram -c ./iconpark-miniprogram.example.json
+$ iconpark-miniprogram-sht -c ./iconpark-miniprogram.example.json
 ```
 
 ### 3. Or using command
 
 ```shell
-$ iconpark-miniprogram --link https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/svg_2112_11.caca56a254d4132af95083235d0735e1.js --total 11 --path ./components/iconParks --runtime weapp
+$ iconpark-miniprogram-sht --link https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/svg_2112_11.caca56a254d4132af95083235d0735e1.js --total 11 --path ./components/iconParks --runtime weapp
 ```

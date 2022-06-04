@@ -2,7 +2,7 @@ import {Command, flags} from '@oclif/command'
 import {join} from "path";
 import * as process from "process";
 import {readFileSync} from "fs";
-import {miniCompiler} from '@iconpark-miniprogram/core'
+import {miniCompiler} from '@iconpark-miniprogram-sht/core'
 
 class IconParkMiniProgramCli extends Command {
   static description = 'describe the command here'
