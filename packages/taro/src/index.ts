@@ -1,4 +1,4 @@
-import {taroCompiler} from '@iconpark-miniprogram/core'
+import {taroCompiler} from '@iconpark-miniprogram-sht/core'
 
 taroCompiler()
     .then(() => {

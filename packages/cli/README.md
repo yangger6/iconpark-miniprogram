@@ -5,9 +5,12 @@
 icon-park 小程序组件构建
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/@iconpark-miniprogram/cli.svg)](https://npmjs.org/package/@iconpark-miniprogram/cli)
-[![Downloads/week](https://img.shields.io/npm/dw/@iconpark-miniprogram/cli.svg)](https://npmjs.org/package/@iconpark-miniprogram/cli)
+[![Version](https://img.shields.io/npm/v/@iconpark-miniprogram-sht/cli.svg)](https://npmjs.org/package/@iconpark-miniprogram-sht/cli)
+[![Downloads/week](https://img.shields.io/npm/dw/@iconpark-miniprogram-sht/cli.svg)](https://npmjs.org/package/@iconpark-miniprogram-sht/cli)
 [![License](https://img.shields.io/npm/l/@iconpark-miniprogram/cli.svg)](https://github.com/yangger6/iconpark-miniprogram/blob/master/packages/cli/package.json)
+## 声明 
+### 这里只是修改了一下bug，使其可以支持更多的Icon
+
 
 ## 特性
 
@@ -17,12 +20,12 @@ icon-park 小程序组件构建
 ## 使用方法
 <!-- usage -->
 ```sh-session
-$ npm install -g @iconpark-miniprogram/cli
-$ iconpark-miniprogram COMMAND
+$ npm install -g @iconpark-miniprogram-sht/cli
+$ iconpark-miniprogram-sht COMMAND
 running command...
-$ iconpark-miniprogram --help [COMMAND]
+$ iconpark-miniprogram-sht --help [COMMAND]
 USAGE
-  $ iconpark-miniprogram COMMAND
+  $ iconpark-miniprogram-sht COMMAND
 ...
 
 ```
@@ -49,13 +52,13 @@ USAGE
 使用配置文件`iconpark-miniprogram.json`构建组件
 
 ```shell
-$ iconpark-miniprogram // Automatic `iconpark-miniprogram.json` parsing 
+$ iconpark-miniprogram-sht // Automatic `iconpark-miniprogram.json` parsing 
 // or
-$ iconpark-miniprogram -c ./iconpark-miniprogram.example.json
+$ iconpark-miniprogram-sht -c ./iconpark-miniprogram.example.json
 ```
 
 ### 3. 或者使用命令构建
 
 ```shell
-$ iconpark-miniprogram --link https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/svg_4748_4.6e9e78e1ff1d1089dd55d318b7c8e76f.js --total 4 --path ./components/iconParks --runtime weapp
+$ iconpark-miniprogram-sht --link https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/svg_4748_4.6e9e78e1ff1d1089dd55d318b7c8e76f.js --total 4 --path ./components/iconParks --runtime weapp
 ```

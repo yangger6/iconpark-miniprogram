@@ -1,8 +1,8 @@
 {
-  "name": "@iconpark-miniprogram/taro",
-  "version": "0.0.26",
+  "name": "@iconpark-miniprogram-sht/taro",
+  "version": "0.0.4",
   "main": "lib/index",
-  "module": "lib/index.js",
+  "module": "lib/dex.js",
   "description": "icon-park with taro",
   "files": [
     "lib"
@@ -37,12 +37,12 @@
   },
   "sideEffects": false,
   "devDependencies": {
-    "@iconpark-miniprogram/core": "^0.0.26",
+    "@iconpark-miniprogram-sht/core": "^0.0.4",
     "@types/react": "^17.0.34",
     "react": "~17.0.0",
     "react-dom": "~17.0.0",
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4"
   },
-  "gitHead": "7c88151b2487e7cfef12b9fa0ea47813bc7ca144"
+  "gitHead": "19d36a25d996b7832467d79fc1faf9ac621a6c8f"
 }
